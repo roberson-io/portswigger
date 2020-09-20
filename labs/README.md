@@ -58,17 +58,17 @@ Example: [LABS_WITH_STATUS.md](https://github.com/roberson-io/portswigger/blob/m
 
 Works with all sub-commands. Prompts for PortSwigger login for `json` or `refresh`.
 ```
-./labs.py json --verbose
+./labs.py json --include-status
 ```
 
 ### Specify JSON file name
 Also works with `refresh` sub-command.
 ```
-./labs.py json --json-file labs_with_status.json
+./labs.py json --json-file example.json
 ```
 
 ### Specify Markdown file name
 Also works with `refresh` sub-command.
 ```
-./labs.py markdown --markdown-file LABS_WITH_STATUS.md
+./labs.py markdown --markdown-file EXAMPLE.md
 ```
