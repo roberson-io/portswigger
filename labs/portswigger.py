@@ -11,6 +11,7 @@ labs_url = "{base_url}/web-security/all-labs".format(base_url=base_url)
 def new_session() -> requests.Session:
     return requests.Session()
 
+
 def login(email: str, password: str) -> requests.Session:
     session = new_session()
     r = session.get(login_url)

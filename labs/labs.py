@@ -23,7 +23,9 @@ def get_json(args):
 
 def markdown(args):
     md.markdown(
-        file_name=args.markdown_file, include_status=args.include_status
+        markdown_file=args.markdown_file,
+        json_file=args.json_file,
+        include_status=args.include_status,
     )
 
 
@@ -40,9 +42,6 @@ def add_common_args(parser):
         help="Include 'solved' status",
         action="store_true",
     )
-
-
-def add_json_args(parser):
     parser.add_argument(
         "-j",
         "--json-file",
@@ -50,6 +49,9 @@ def add_json_args(parser):
         default="labs.json",
         help="JSON file name",
     )
+
+
+def add_json_args(parser):
     parser.add_argument(
         "-v",
         "--verbose",

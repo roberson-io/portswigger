@@ -12,7 +12,6 @@ class LabCollection:
         self.categorized = self.categorize(self.all)
         self.markdown = self.to_markdown()
 
-
     def categorize(self, labs: List) -> Dict:
         keys = ("APPRENTICE", "PRACTITIONER", "EXPERT")
         levels = collections.OrderedDict.fromkeys(keys, {})
