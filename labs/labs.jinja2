@@ -1,9 +1,7 @@
 # PortSwigger Web Security Academy Labs
 
-The [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-is an excellent resource for learning about web application security.
-However, I could not find anywhere that groups the labs by difficulty level,
-so I wrote a script to scrape the data from each of the pages.
+[PortSwigger Web Security Academy labs](https://portswigger.net/web-security)
+grouped by difficulty level and topic.
 
 {% for level, topics in collection.items() %}
 ## {{ level }}
@@ -11,7 +9,10 @@ so I wrote a script to scrape the data from each of the pages.
 {% for topic, labs in topics.items() %}
 ### {{ topic }}
 {% for lab in labs %}
-[{{ lab.get("title") }}]({{ lab.get("url") }}) **{{ lab.get("status") }}**
+[{{ lab.get("title") }}]({{ lab.get("url") }}) 
+{%- if include_status %}
+ **{{ lab.get("status") }}**
+{%- endif %}
 
 {% endfor %}
 

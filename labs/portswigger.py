@@ -8,8 +8,11 @@ login_url = "{base_url}/users".format(base_url=base_url)
 labs_url = "{base_url}/web-security/all-labs".format(base_url=base_url)
 
 
+def new_session() -> requests.Session:
+    return requests.Session()
+
 def login(email: str, password: str) -> requests.Session:
-    session = requests.Session()
+    session = new_session()
     r = session.get(login_url)
     login_page = BeautifulSoup(r.text, features="html.parser")
     token_id = "__RequestVerificationToken"
@@ -39,13 +42,21 @@ def lab_urls(session: requests.Session) -> List[str]:
     ]
 
 
-def labs(session: requests.Session, verbose: bool = True) -> List[Dict]:
+def labs(
+    session: requests.Session,
+    verbose: bool = True,
+    include_status: bool = False,
+) -> List[Dict]:
     labs = []
     urls = lab_urls(session)
     lab_count = len(urls)
     for i, url in enumerate(urls):
         if verbose:
-            print("Fetching {n} of {count} labs.".format(n=i+1, count=lab_count))
+            print(
+                "Fetching {n} of {count} labs.".format(
+                    n=i + 1, count=lab_count
+                )
+            )
         r = session.get(url)
         lab_page = BeautifulSoup(r.text, features="html.parser")
         title = lab_page.find("h1").text.replace("Lab: ", "").strip()
@@ -54,17 +65,18 @@ def labs(session: requests.Session, verbose: bool = True) -> List[Dict]:
         level = lab_page.find(
             "div", class_="widget-container-labelevel"
         ).text.strip()
-        status = (
-            lab_page.find("div", class_="widgetcontainer-lab-status")
-            .find("p")
-            .text
-        ).strip()
         lab = {
             "title": title,
             "topic": topic,
             "url": url,
             "level": level,
-            "status": status,
         }
+        if include_status:
+            status = (
+                lab_page.find("div", class_="widgetcontainer-lab-status")
+                .find("p")
+                .text
+            ).strip()
+            lab["status"] = status
         labs.append(lab)
     return labs
