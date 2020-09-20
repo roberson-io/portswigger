@@ -1,4 +1,6 @@
 # PortSwigger Web Security Academy Labs
+The [PortSwigger Web Security Academy](https://portswigger.net/web-security) is an excellent resource for learning about web application security. However, I could not find anywhere that groups the labs by difficulty level, so I wrote a script to scrape the data from each of the pages.
+
 
 ## Apprentice
 SQL injection: [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
