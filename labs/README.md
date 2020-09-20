@@ -55,7 +55,7 @@ Also works with `refresh` sub-command.
 
 ### Include 'solve' status
 Examples:
-- [labs_with_status.json] (https://github.com/roberson-io/portswigger/blob/master/labs/labs_with_status.json)
+- [labs_with_status.json](https://github.com/roberson-io/portswigger/blob/master/labs/labs_with_status.json)
 - [LABS_WITH_STATUS.md](https://github.com/roberson-io/portswigger/blob/master/labs/LABS_WITH_STATUS.md)
 
 Works with all sub-commands. Prompts for PortSwigger login for `json` or `refresh`.
