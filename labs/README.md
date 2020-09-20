@@ -54,11 +54,13 @@ Also works with `refresh` sub-command.
 ```
 
 ### Include 'solve' status
-Example: [LABS_WITH_STATUS.md](https://github.com/roberson-io/portswigger/blob/master/labs/LABS_WITH_STATUS.md)
+Examples:
+- [labs_with_status.json] (https://github.com/roberson-io/portswigger/blob/master/labs/labs_with_status.json)
+- [LABS_WITH_STATUS.md](https://github.com/roberson-io/portswigger/blob/master/labs/LABS_WITH_STATUS.md)
 
 Works with all sub-commands. Prompts for PortSwigger login for `json` or `refresh`.
 ```
-./labs.py json --include-status
+./labs.py refresh --include-status
 ```
 
 ### Specify JSON file name
