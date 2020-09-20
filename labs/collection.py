@@ -13,17 +13,19 @@ class LabCollection:
         self.markdown = self.to_markdown()
 
     def categorize(self, labs: List) -> Dict:
-        keys = ("APPRENTICE", "PRACTITIONER", "EXPERT")
-        levels = collections.OrderedDict.fromkeys(keys, {})
+        levels = collections.defaultdict(dict)
         for lab in labs:
-            levels[lab.get("level")].setdefault(lab.get("topic"), []).append(
+            levels[lab.get("level")].setdefault(
+                lab.get("topic"), []
+            ).append(
                 {
                     "title": lab.get("title"),
                     "url": lab.get("url"),
                     "status": lab.get("status"),
                 }
             )
-        return levels
+        keys = ("APPRENTICE", "PRACTITIONER", "EXPERT")
+        return collections.OrderedDict((k, levels[k]) for k in keys)
 
     def to_markdown(self) -> str:
         with open("labs.jinja2") as f:
