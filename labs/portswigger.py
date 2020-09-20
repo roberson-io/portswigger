@@ -49,7 +49,8 @@ def labs(session: requests.Session, verbose: bool = True) -> List[Dict]:
         r = session.get(url)
         lab_page = BeautifulSoup(r.text, features="html.parser")
         title = lab_page.find("h1").text.replace("Lab: ", "").strip()
-        topic = lab_page.find("div", class_="is-linklist").find("a").text.strip()
+        breadcrumbs = lab_page.find("ol", class_="ps-breadcrumbs")
+        topic = breadcrumbs.find_all("li")[1].text.strip()
         level = lab_page.find(
             "div", class_="widget-container-labelevel"
         ).text.strip()

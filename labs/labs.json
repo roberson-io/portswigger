@@ -379,84 +379,84 @@
     },
     {
         "title": "Basic clickjacking with CSRF token protection",
-        "topic": "SQL injection",
+        "topic": "Clickjacking",
         "url": "https://portswigger.net/web-security/clickjacking/lab-basic-csrf-protected",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "Clickjacking with form input data prefilled from a URL parameter",
-        "topic": "SQL injection",
+        "topic": "Clickjacking",
         "url": "https://portswigger.net/web-security/clickjacking/lab-prefilled-form-input",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "Clickjacking with a frame buster script",
-        "topic": "SQL injection",
+        "topic": "Clickjacking",
         "url": "https://portswigger.net/web-security/clickjacking/lab-frame-buster-script",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "Exploiting clickjacking vulnerability to trigger DOM-based XSS",
-        "topic": "SQL injection",
+        "topic": "Clickjacking",
         "url": "https://portswigger.net/web-security/clickjacking/lab-exploiting-to-trigger-dom-based-xss",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Multistep clickjacking",
-        "topic": "SQL injection",
+        "topic": "Clickjacking",
         "url": "https://portswigger.net/web-security/clickjacking/lab-multistep",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "DOM XSS using web messages",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "DOM XSS using web messages and a JavaScript URL",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-a-javascript-url",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "DOM XSS using web messages and JSON.parse",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages-and-json-parse",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "DOM-based open redirection",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/open-redirection/lab-dom-open-redirection",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "DOM-based cookie manipulation",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/cookie-manipulation/lab-dom-cookie-manipulation",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting DOM clobbering to enable XSS",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/dom-clobbering/lab-dom-xss-exploiting-dom-clobbering",
         "level": "EXPERT",
         "status": "Not solved"
     },
     {
         "title": "Clobbering DOM attributes to bypass HTML filters",
-        "topic": "DOM-based vulnerabilities",
+        "topic": "DOM-based",
         "url": "https://portswigger.net/web-security/dom-based/dom-clobbering/lab-dom-clobbering-attributes-to-bypass-html-filters",
         "level": "EXPERT",
         "status": "Not solved"
@@ -603,119 +603,119 @@
     },
     {
         "title": "HTTP request smuggling, basic CL.TE vulnerability",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/lab-basic-cl-te",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "HTTP request smuggling, basic TE.CL vulnerability",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/lab-basic-te-cl",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "HTTP request smuggling, obfuscating the TE header",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/lab-ofuscating-te-header",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "HTTP request smuggling, confirming a CL.TE vulnerability via differential responses",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-cl-te-via-differential-responses",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "HTTP request smuggling, confirming a TE.CL vulnerability via differential responses",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-te-cl-via-differential-responses",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-cl-te",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-te-cl",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to reveal front-end request rewriting",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-reveal-front-end-request-rewriting",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to capture other users' requests",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-capture-other-users-requests",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to deliver reflected XSS",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-deliver-reflected-xss",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to perform web cache poisoning",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-perform-web-cache-poisoning",
         "level": "EXPERT",
         "status": "Not solved"
     },
     {
         "title": "Exploiting HTTP request smuggling to perform web cache deception",
-        "topic": "HTTP request smuggling",
+        "topic": "Request smuggling",
         "url": "https://portswigger.net/web-security/request-smuggling/exploiting/lab-perform-web-cache-deception",
         "level": "EXPERT",
         "status": "Not solved"
     },
     {
         "title": "OS command injection, simple case",
-        "topic": "SQL injection",
+        "topic": "OS command injection",
         "url": "https://portswigger.net/web-security/os-command-injection/lab-simple",
         "level": "APPRENTICE",
         "status": "Solved"
     },
     {
         "title": "Blind OS command injection with time delays",
-        "topic": "SQL injection",
+        "topic": "OS command injection",
         "url": "https://portswigger.net/web-security/os-command-injection/lab-blind-time-delays",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Blind OS command injection with output redirection",
-        "topic": "SQL injection",
+        "topic": "OS command injection",
         "url": "https://portswigger.net/web-security/os-command-injection/lab-blind-output-redirection",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Blind OS command injection with out-of-band interaction",
-        "topic": "SQL injection",
+        "topic": "OS command injection",
         "url": "https://portswigger.net/web-security/os-command-injection/lab-blind-out-of-band",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Blind OS command injection with out-of-band data exfiltration",
-        "topic": "SQL injection",
+        "topic": "OS command injection",
         "url": "https://portswigger.net/web-security/os-command-injection/lab-blind-out-of-band-data-exfiltration",
         "level": "PRACTITIONER",
         "status": "Not solved"
@@ -771,133 +771,133 @@
     },
     {
         "title": "File path traversal, simple case",
-        "topic": "SQL injection",
+        "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-simple",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "File path traversal, traversal sequences blocked with absolute path bypass",
-        "topic": "SQL injection",
+        "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-absolute-path-bypass",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "File path traversal, traversal sequences stripped non-recursively",
-        "topic": "SQL injection",
+        "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-sequences-stripped-non-recursively",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "File path traversal, traversal sequences stripped with superfluous URL-decode",
-        "topic": "SQL injection",
+        "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-superfluous-url-decode",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "File path traversal, validation of start of path",
-        "topic": "SQL injection",
+        "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-validate-start-of-path",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "File path traversal, validation of file extension with null byte bypass",
-        "topic": "SQL injection",
+        "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-validate-file-extension-null-byte-bypass",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Unprotected admin functionality",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality",
         "level": "APPRENTICE",
         "status": "Solved"
     },
     {
         "title": "Unprotected admin functionality with unpredictable URL",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url",
         "level": "APPRENTICE",
         "status": "Solved"
     },
     {
         "title": "User role controlled by request parameter",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-role-controlled-by-request-parameter",
         "level": "APPRENTICE",
         "status": "Solved"
     },
     {
         "title": "User role can be modified in user profile",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "URL-based access control can be circumvented",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-url-based-access-control-can-be-circumvented",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Method-based access control can be circumvented",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-method-based-access-control-can-be-circumvented",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "User ID controlled by request parameter",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "User ID controlled by request parameter, with unpredictable user IDs",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "User ID controlled by request parameter with data leakage in redirect",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-data-leakage-in-redirect",
         "level": "APPRENTICE",
         "status": "Solved"
     },
     {
         "title": "User ID controlled by request parameter with password disclosure",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "Insecure direct object references",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-insecure-direct-object-references",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "Multi-step process with no access control on one step",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-multi-step-process-with-no-access-control-on-one-step",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Referer-based access control",
-        "topic": "Access control vulnerabilities",
+        "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-referer-based-access-control",
         "level": "PRACTITIONER",
         "status": "Not solved"
@@ -1002,21 +1002,21 @@
     },
     {
         "title": "Manipulating WebSocket messages to exploit vulnerabilities",
-        "topic": "WebSockets testing",
+        "topic": "WebSockets",
         "url": "https://portswigger.net/web-security/websockets/lab-manipulating-messages-to-exploit-vulnerabilities",
         "level": "APPRENTICE",
         "status": "Not solved"
     },
     {
         "title": "Manipulating the WebSocket handshake to exploit vulnerabilities",
-        "topic": "WebSockets testing",
+        "topic": "WebSockets",
         "url": "https://portswigger.net/web-security/websockets/lab-manipulating-handshake-to-exploit-vulnerabilities",
         "level": "PRACTITIONER",
         "status": "Not solved"
     },
     {
         "title": "Cross-site WebSocket hijacking",
-        "topic": "WebSockets testing",
+        "topic": "WebSockets",
         "url": "https://portswigger.net/web-security/websockets/cross-site-websocket-hijacking/lab",
         "level": "PRACTITIONER",
         "status": "Not solved"

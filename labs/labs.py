@@ -7,5 +7,5 @@ email = input("Email address: ")
 password = getpass.getpass("Password: ")
 
 session = portswigger.login(email, password)
-labs = portswigger.labs(session, verbose=False)
+labs = portswigger.labs(session, verbose=True)
 print(json.dumps(labs, indent=4))
