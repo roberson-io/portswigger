@@ -15,7 +15,7 @@ def get_json(args):
     else:
         session = portswigger.new_session()
     labs = portswigger.labs(
-        session, verbose=args.verbose, include_status=args.verbose
+        session, verbose=args.verbose, include_status=args.include_status
     )
     with open(args.json_file, "w") as f:
         f.write(json.dumps(labs, indent=4))
