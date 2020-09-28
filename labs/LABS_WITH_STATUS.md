@@ -10,11 +10,11 @@ grouped by difficulty level and topic.
 ### SQL injection
 
 [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
- **Not solved**
+ **Solved**
 
 
 [SQL injection vulnerability allowing login bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
- **Not solved**
+ **Solved**
 
 
 
@@ -30,11 +30,11 @@ grouped by difficulty level and topic.
 
 
 [Stored XSS into anchor href attribute with double quotes HTML-encoded](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encoded)
- **Not solved**
+ **Solved**
 
 
 [Reflected XSS into a JavaScript string with angle brackets HTML encoded](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-html-encoded)
- **Not solved**
+ **Solved**
 
 
 [Stored XSS into HTML context with nothing encoded](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)
@@ -42,15 +42,15 @@ grouped by difficulty level and topic.
 
 
 [DOM XSS in document.write sink using source location.search](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
- **Not solved**
+ **Solved**
 
 
 [DOM XSS in innerHTML sink using source location.search](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
- **Not solved**
+ **Solved**
 
 
 [DOM XSS in jQuery anchor href attribute sink using location.search source](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
- **Not solved**
+ **Solved**
 
 
 
@@ -58,7 +58,7 @@ grouped by difficulty level and topic.
 ### CSRF
 
 [CSRF vulnerability with no defenses](https://portswigger.net/web-security/csrf/lab-no-defenses)
- **Not solved**
+ **Solved**
 
 
 
@@ -94,11 +94,11 @@ grouped by difficulty level and topic.
 ### XXE injection
 
 [Exploiting XXE using external entities to retrieve files](https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files)
- **Not solved**
+ **Solved**
 
 
 [Exploiting XXE to perform SSRF attacks](https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-perform-ssrf)
- **Not solved**
+ **Solved**
 
 
 
@@ -110,7 +110,7 @@ grouped by difficulty level and topic.
 
 
 [Basic SSRF against another back-end system](https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-backend-system)
- **Not solved**
+ **Solved**
 
 
 
@@ -126,7 +126,7 @@ grouped by difficulty level and topic.
 ### Directory traversal
 
 [File path traversal, simple case](https://portswigger.net/web-security/file-path-traversal/lab-simple)
- **Not solved**
+ **Solved**
 
 
 
@@ -146,15 +146,15 @@ grouped by difficulty level and topic.
 
 
 [User role can be modified in user profile](https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile)
- **Not solved**
+ **Solved**
 
 
 [User ID controlled by request parameter](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter)
- **Not solved**
+ **Solved**
 
 
 [User ID controlled by request parameter, with unpredictable user IDs](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids)
- **Not solved**
+ **Solved**
 
 
 [User ID controlled by request parameter with data leakage in redirect](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-data-leakage-in-redirect)
@@ -162,11 +162,11 @@ grouped by difficulty level and topic.
 
 
 [User ID controlled by request parameter with password disclosure](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure)
- **Not solved**
+ **Solved**
 
 
 [Insecure direct object references](https://portswigger.net/web-security/access-control/lab-insecure-direct-object-references)
- **Not solved**
+ **Solved**
 
 
 

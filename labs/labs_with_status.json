@@ -102,14 +102,14 @@
         "topic": "SQL injection",
         "url": "https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "SQL injection vulnerability allowing login bypass",
         "topic": "SQL injection",
         "url": "https://portswigger.net/web-security/sql-injection/lab-login-bypass",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Reflected XSS into HTML context with nothing encoded",
@@ -158,7 +158,7 @@
         "topic": "Cross-site scripting",
         "url": "https://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encoded",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Reflected XSS in canonical link tag",
@@ -179,7 +179,7 @@
         "topic": "Cross-site scripting",
         "url": "https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-html-encoded",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped",
@@ -235,7 +235,7 @@
         "topic": "Cross-site scripting",
         "url": "https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "DOM XSS in document.write sink using source location.search inside a select element",
@@ -249,14 +249,14 @@
         "topic": "Cross-site scripting",
         "url": "https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "DOM XSS in jQuery anchor href attribute sink using location.search source",
         "topic": "Cross-site scripting",
         "url": "https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded",
@@ -326,7 +326,7 @@
         "topic": "CSRF",
         "url": "https://portswigger.net/web-security/csrf/lab-no-defenses",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "CSRF where token validation depends on request method",
@@ -494,14 +494,14 @@
         "topic": "XXE injection",
         "url": "https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-retrieve-files",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Exploiting XXE to perform SSRF attacks",
         "topic": "XXE injection",
         "url": "https://portswigger.net/web-security/xxe/lab-exploiting-xxe-to-perform-ssrf",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Blind XXE with out-of-band interaction",
@@ -564,7 +564,7 @@
         "topic": "SSRF",
         "url": "https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-backend-system",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "SSRF with blacklist-based input filter",
@@ -774,7 +774,7 @@
         "topic": "Directory traversal",
         "url": "https://portswigger.net/web-security/file-path-traversal/lab-simple",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "File path traversal, traversal sequences blocked with absolute path bypass",
@@ -837,7 +837,7 @@
         "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "URL-based access control can be circumvented",
@@ -858,14 +858,14 @@
         "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "User ID controlled by request parameter, with unpredictable user IDs",
         "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "User ID controlled by request parameter with data leakage in redirect",
@@ -879,14 +879,14 @@
         "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Insecure direct object references",
         "topic": "Access control",
         "url": "https://portswigger.net/web-security/access-control/lab-insecure-direct-object-references",
         "level": "APPRENTICE",
-        "status": "Not solved"
+        "status": "Solved"
     },
     {
         "title": "Multi-step process with no access control on one step",
