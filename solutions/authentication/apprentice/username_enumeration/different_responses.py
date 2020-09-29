@@ -19,7 +19,7 @@ import requests
 # https://portswigger.net/web-security/authentication/auth-lab-passwords
 
 # The candidate usernames and passwords are saved in usernames.txt and
-# passwords.txt in the `solutions/authentication` directory.
+# passwords.txt.
 
 # To solve the lab, enumerate a valid username, brute-force this user's
 # password, then access their "My account" page.
@@ -27,7 +27,7 @@ import requests
 
 base_url = "https://portswigger.net"
 login_url = "{base_url}/users".format(base_url=base_url)
-lab_url = "https://ac4c1f5e1f7ca5e180efb61e00b7002c.web-security-academy.net"
+lab_url = "https://YOURLABID.web-security-academy.net"
 
 
 def login(email: str, password: str) -> requests.Session:
