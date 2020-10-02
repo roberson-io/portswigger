@@ -199,6 +199,16 @@ grouped by difficulty level and topic.
 
 
 
+### HTTP Host header attacks
+
+[Basic password reset poisoning](https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-basic-password-reset-poisoning)
+
+
+[Host header authentication bypass](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-authentication-bypass)
+
+
+
+
 
 
 ## PRACTITIONER
@@ -525,7 +535,7 @@ grouped by difficulty level and topic.
 [Offline password cracking](https://portswigger.net/web-security/authentication/other-mechanisms/lab-offline-password-cracking)
 
 
-[Password reset poisoning](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning)
+[Password reset poisoning via middleware](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware)
 
 
 [Password brute-force via password change](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-brute-force-via-password-change)
@@ -624,6 +634,19 @@ grouped by difficulty level and topic.
 
 
 [Authentication bypass via encryption oracle](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-encryption-oracle)
+
+
+
+
+### HTTP Host header attacks
+
+[Web cache poisoning via ambiguous requests](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-web-cache-poisoning-via-ambiguous-requests)
+
+
+[Routing-based SSRF](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-routing-based-ssrf)
+
+
+[SSRF via flawed request parsing](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-ssrf-via-flawed-request-parsing)
 
 
 
@@ -744,6 +767,13 @@ grouped by difficulty level and topic.
 
 
 [Using PHAR deserialization to deploy a custom gadget chain](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-using-phar-deserialization-to-deploy-a-custom-gadget-chain)
+
+
+
+
+### HTTP Host header attacks
+
+[Password reset poisoning via dangling markup](https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-password-reset-poisoning-via-dangling-markup)
 
 
 

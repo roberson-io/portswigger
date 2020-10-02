@@ -66,15 +66,15 @@ grouped by difficulty level and topic.
 ### Clickjacking
 
 [Basic clickjacking with CSRF token protection](https://portswigger.net/web-security/clickjacking/lab-basic-csrf-protected)
- **Not solved**
+ **Solved**
 
 
 [Clickjacking with form input data prefilled from a URL parameter](https://portswigger.net/web-security/clickjacking/lab-prefilled-form-input)
- **Not solved**
+ **Solved**
 
 
 [Clickjacking with a frame buster script](https://portswigger.net/web-security/clickjacking/lab-frame-buster-script)
- **Not solved**
+ **Solved**
 
 
 
@@ -82,11 +82,11 @@ grouped by difficulty level and topic.
 ### CORS
 
 [CORS vulnerability with basic origin reflection](https://portswigger.net/web-security/cors/lab-basic-origin-reflection-attack)
- **Not solved**
+ **Solved**
 
 
 [CORS vulnerability with trusted null origin](https://portswigger.net/web-security/cors/lab-null-origin-whitelisted-attack)
- **Not solved**
+ **Solved**
 
 
 
@@ -174,7 +174,7 @@ grouped by difficulty level and topic.
 ### Authentication
 
 [Username enumeration via different responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses)
- **Not solved**
+ **Solved**
 
 
 [2FA simple bypass](https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass)
@@ -190,7 +190,7 @@ grouped by difficulty level and topic.
 ### WebSockets
 
 [Manipulating WebSocket messages to exploit vulnerabilities](https://portswigger.net/web-security/websockets/lab-manipulating-messages-to-exploit-vulnerabilities)
- **Not solved**
+ **Solved**
 
 
 
@@ -238,6 +238,18 @@ grouped by difficulty level and topic.
 
 
 [Flawed enforcement of business rules](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules)
+ **Solved**
+
+
+
+
+### HTTP Host header attacks
+
+[Basic password reset poisoning](https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-basic-password-reset-poisoning)
+ **Not solved**
+
+
+[Host header authentication bypass](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-authentication-bypass)
  **Not solved**
 
 
@@ -271,15 +283,15 @@ grouped by difficulty level and topic.
 
 
 [SQL injection attack, querying the database type and version on MySQL and Microsoft](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
- **Not solved**
+ **Solved**
 
 
 [SQL injection attack, listing the database contents on non-Oracle databases](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-non-oracle)
- **Not solved**
+ **Solved**
 
 
 [SQL injection attack, listing the database contents on Oracle](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle)
- **Not solved**
+ **Solved**
 
 
 [Blind SQL injection with conditional responses](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses)
@@ -658,7 +670,7 @@ grouped by difficulty level and topic.
  **Not solved**
 
 
-[Password reset poisoning](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning)
+[Password reset poisoning via middleware](https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware)
  **Not solved**
 
 
@@ -783,6 +795,22 @@ grouped by difficulty level and topic.
 
 
 [Authentication bypass via encryption oracle](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-encryption-oracle)
+ **Not solved**
+
+
+
+
+### HTTP Host header attacks
+
+[Web cache poisoning via ambiguous requests](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-web-cache-poisoning-via-ambiguous-requests)
+ **Not solved**
+
+
+[Routing-based SSRF](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-routing-based-ssrf)
+ **Not solved**
+
+
+[SSRF via flawed request parsing](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-ssrf-via-flawed-request-parsing)
  **Not solved**
 
 
@@ -928,6 +956,14 @@ grouped by difficulty level and topic.
 
 
 [Using PHAR deserialization to deploy a custom gadget chain](https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-using-phar-deserialization-to-deploy-a-custom-gadget-chain)
+ **Not solved**
+
+
+
+
+### HTTP Host header attacks
+
+[Password reset poisoning via dangling markup](https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-password-reset-poisoning-via-dangling-markup)
  **Not solved**
 
 

@@ -846,9 +846,9 @@
         "level": "APPRENTICE"
     },
     {
-        "title": "Password reset poisoning",
+        "title": "Password reset poisoning via middleware",
         "topic": "Authentication",
-        "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning",
+        "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware",
         "level": "PRACTITIONER"
     },
     {
@@ -1107,6 +1107,42 @@
         "title": "Authentication bypass via encryption oracle",
         "topic": "Business logic vulnerabilities",
         "url": "https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-encryption-oracle",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "Basic password reset poisoning",
+        "topic": "HTTP Host header attacks",
+        "url": "https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-basic-password-reset-poisoning",
+        "level": "APPRENTICE"
+    },
+    {
+        "title": "Password reset poisoning via dangling markup",
+        "topic": "HTTP Host header attacks",
+        "url": "https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-password-reset-poisoning-via-dangling-markup",
+        "level": "EXPERT"
+    },
+    {
+        "title": "Web cache poisoning via ambiguous requests",
+        "topic": "HTTP Host header attacks",
+        "url": "https://portswigger.net/web-security/host-header/exploiting/lab-host-header-web-cache-poisoning-via-ambiguous-requests",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "Host header authentication bypass",
+        "topic": "HTTP Host header attacks",
+        "url": "https://portswigger.net/web-security/host-header/exploiting/lab-host-header-authentication-bypass",
+        "level": "APPRENTICE"
+    },
+    {
+        "title": "Routing-based SSRF",
+        "topic": "HTTP Host header attacks",
+        "url": "https://portswigger.net/web-security/host-header/exploiting/lab-host-header-routing-based-ssrf",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "SSRF via flawed request parsing",
+        "topic": "HTTP Host header attacks",
+        "url": "https://portswigger.net/web-security/host-header/exploiting/lab-host-header-ssrf-via-flawed-request-parsing",
         "level": "PRACTITIONER"
     }
 ]
