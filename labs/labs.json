@@ -530,7 +530,7 @@
     {
         "title": "HTTP request smuggling, obfuscating the TE header",
         "topic": "Request smuggling",
-        "url": "https://portswigger.net/web-security/request-smuggling/lab-ofuscating-te-header",
+        "url": "https://portswigger.net/web-security/request-smuggling/lab-obfuscating-te-header",
         "level": "PRACTITIONER"
     },
     {
@@ -775,85 +775,85 @@
     },
     {
         "title": "Username enumeration via different responses",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses",
         "level": "APPRENTICE"
     },
     {
         "title": "Username enumeration via subtly different responses",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses",
         "level": "PRACTITIONER"
     },
     {
         "title": "Username enumeration via response timing",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-response-timing",
         "level": "PRACTITIONER"
     },
     {
         "title": "Broken brute-force protection, IP block",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/password-based/lab-broken-bruteforce-protection-ip-block",
         "level": "PRACTITIONER"
     },
     {
         "title": "Username enumeration via account lock",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-account-lock",
         "level": "PRACTITIONER"
     },
     {
         "title": "Broken brute-force protection, multiple credentials per request",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/password-based/lab-broken-brute-force-protection-multiple-credentials-per-request",
         "level": "EXPERT"
     },
     {
         "title": "2FA simple bypass",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass",
         "level": "APPRENTICE"
     },
     {
         "title": "2FA broken logic",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic",
         "level": "PRACTITIONER"
     },
     {
         "title": "2FA bypass using a brute-force attack",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-bypass-using-a-brute-force-attack",
         "level": "EXPERT"
     },
     {
         "title": "Brute-forcing a stay-logged-in cookie",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-brute-forcing-a-stay-logged-in-cookie",
         "level": "PRACTITIONER"
     },
     {
         "title": "Offline password cracking",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-offline-password-cracking",
         "level": "PRACTITIONER"
     },
     {
         "title": "Password reset broken logic",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-broken-logic",
         "level": "APPRENTICE"
     },
     {
         "title": "Password reset poisoning via middleware",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-reset-poisoning-via-middleware",
         "level": "PRACTITIONER"
     },
     {
         "title": "Password brute-force via password change",
-        "topic": "Authentication",
+        "topic": "Authentication vulnerabilities",
         "url": "https://portswigger.net/web-security/authentication/other-mechanisms/lab-password-brute-force-via-password-change",
         "level": "PRACTITIONER"
     },
@@ -1143,6 +1143,42 @@
         "title": "SSRF via flawed request parsing",
         "topic": "HTTP Host header attacks",
         "url": "https://portswigger.net/web-security/host-header/exploiting/lab-host-header-ssrf-via-flawed-request-parsing",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "Authentication bypass via OAuth implicit flow",
+        "topic": "OAuth authentication",
+        "url": "https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow",
+        "level": "APPRENTICE"
+    },
+    {
+        "title": "Forced OAuth profile linking",
+        "topic": "OAuth authentication",
+        "url": "https://portswigger.net/web-security/oauth/lab-oauth-forced-oauth-profile-linking",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "OAuth account hijacking via redirect_uri",
+        "topic": "OAuth authentication",
+        "url": "https://portswigger.net/web-security/oauth/lab-oauth-account-hijacking-via-redirect-uri",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "Stealing OAuth access tokens via an open redirect",
+        "topic": "OAuth authentication",
+        "url": "https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-an-open-redirect",
+        "level": "PRACTITIONER"
+    },
+    {
+        "title": "Stealing OAuth access tokens via a proxy page",
+        "topic": "OAuth authentication",
+        "url": "https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-a-proxy-page",
+        "level": "EXPERT"
+    },
+    {
+        "title": "SSRF via OpenID dynamic client registration",
+        "topic": "OAuth authentication",
+        "url": "https://portswigger.net/web-security/oauth/openid/lab-oauth-ssrf-via-openid-dynamic-client-registration",
         "level": "PRACTITIONER"
     }
 ]

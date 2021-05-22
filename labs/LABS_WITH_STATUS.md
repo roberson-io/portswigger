@@ -171,7 +171,7 @@ grouped by difficulty level and topic.
 
 
 
-### Authentication
+### Authentication vulnerabilities
 
 [Username enumeration via different responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses)
  **Solved**
@@ -246,10 +246,18 @@ grouped by difficulty level and topic.
 ### HTTP Host header attacks
 
 [Basic password reset poisoning](https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-basic-password-reset-poisoning)
- **Not solved**
+ **Solved**
 
 
 [Host header authentication bypass](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-authentication-bypass)
+ **Solved**
+
+
+
+
+### OAuth authentication
+
+[Authentication bypass via OAuth implicit flow](https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow)
  **Not solved**
 
 
@@ -295,7 +303,7 @@ grouped by difficulty level and topic.
 
 
 [Blind SQL injection with conditional responses](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses)
- **Not solved**
+ **Solved**
 
 
 [Blind SQL injection with conditional errors](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-errors)
@@ -518,7 +526,7 @@ grouped by difficulty level and topic.
  **Not solved**
 
 
-[HTTP request smuggling, obfuscating the TE header](https://portswigger.net/web-security/request-smuggling/lab-ofuscating-te-header)
+[HTTP request smuggling, obfuscating the TE header](https://portswigger.net/web-security/request-smuggling/lab-obfuscating-te-header)
  **Not solved**
 
 
@@ -640,7 +648,7 @@ grouped by difficulty level and topic.
 
 
 
-### Authentication
+### Authentication vulnerabilities
 
 [Username enumeration via subtly different responses](https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses)
  **Not solved**
@@ -816,6 +824,26 @@ grouped by difficulty level and topic.
 
 
 
+### OAuth authentication
+
+[Forced OAuth profile linking](https://portswigger.net/web-security/oauth/lab-oauth-forced-oauth-profile-linking)
+ **Not solved**
+
+
+[OAuth account hijacking via redirect_uri](https://portswigger.net/web-security/oauth/lab-oauth-account-hijacking-via-redirect-uri)
+ **Not solved**
+
+
+[Stealing OAuth access tokens via an open redirect](https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-an-open-redirect)
+ **Not solved**
+
+
+[SSRF via OpenID dynamic client registration](https://portswigger.net/web-security/oauth/openid/lab-oauth-ssrf-via-openid-dynamic-client-registration)
+ **Not solved**
+
+
+
+
 
 
 ## EXPERT
@@ -913,7 +941,7 @@ grouped by difficulty level and topic.
 
 
 
-### Authentication
+### Authentication vulnerabilities
 
 [Broken brute-force protection, multiple credentials per request](https://portswigger.net/web-security/authentication/password-based/lab-broken-brute-force-protection-multiple-credentials-per-request)
  **Not solved**
@@ -964,6 +992,14 @@ grouped by difficulty level and topic.
 ### HTTP Host header attacks
 
 [Password reset poisoning via dangling markup](https://portswigger.net/web-security/host-header/exploiting/password-reset-poisoning/lab-host-header-password-reset-poisoning-via-dangling-markup)
+ **Not solved**
+
+
+
+
+### OAuth authentication
+
+[Stealing OAuth access tokens via a proxy page](https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-a-proxy-page)
  **Not solved**
 
 

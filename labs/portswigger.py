@@ -16,7 +16,7 @@ def login(email: str, password: str) -> requests.Session:
     session = new_session()
     r = session.get(login_url)
     login_page = BeautifulSoup(r.text, features="html.parser")
-    token_id = "__RequestVerificationToken"
+    token_id = "RequestVerificationToken"
     token_field = login_page.find(id=token_id)
     token = token_field.get("value")
     data = {
