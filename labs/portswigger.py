@@ -74,9 +74,7 @@ def labs(
         }
         if include_status:
             status = (
-                lab_page.find("div", class_="widgetcontainer-lab-status")
-                .find("p")
-                .text
+                lab_page.find("span", class_="lab-status-icon").text
             ).strip()
             lab["status"] = status
         labs.append(lab)

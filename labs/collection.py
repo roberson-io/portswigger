@@ -15,9 +15,7 @@ class LabCollection:
     def categorize(self, labs: List) -> Dict:
         levels = collections.defaultdict(dict)
         for lab in labs:
-            levels[lab.get("level")].setdefault(
-                lab.get("topic"), []
-            ).append(
+            levels[lab.get("level")].setdefault(lab.get("topic"), []).append(
                 {
                     "title": lab.get("title"),
                     "url": lab.get("url"),
